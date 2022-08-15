@@ -30,7 +30,7 @@ passwd md_1 -e
 useradd md_2 -c "Media adm 2" -m -s /bin/bash -G MD_ADM
 passwd md_2 -e
 
-echo "Gerabdi permissões dos respectivos diretórios..."
+echo "Gerando permissões dos respectivos diretórios..."
 
 chown root:DB_ADM /data_base
 chown root:MD_ADM /media_base
